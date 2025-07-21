@@ -1,80 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Plain.</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet" />
+  <title>Plain. 2</title>
 </head>
-
 <body>
-
-    <div class="wrap">
-
-        <header class="site-header">
-
-            <div class="container">
-
-                <a href="#"><img class="logo" src="./image/plainLogo2.png" alt="Plain."></a>
-
-                <nav class="main-nav" id="main-nav">
-                    <ul class="header-ul">
-                        <li class="link"><a href="docs">Docs</a></li>
-                        <li class="link"><a href="pricing">Pricing</a></li>
-                        <li class="link"><a href="jobs">Jobs</a></li>
-                        <li class="link"><a href="journal">Journal</a></li>
-                        <li class="link"><a class="special" href="signin">Sign In</a></li>
-                    </ul>
-                </nav>
-
-                <div class="burger" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-            </div>
-
-        </header>
-
-        <div class="main-page background-grid" id = "grid"></div>
-
-        <div class="main-page-content">
-             <div class="container">
-
-                <p class="sub-text">Announcing our $6m Seed fundraise co-led by Index and Connect</p>
-
-                <h1 class="main-text">Customer support<br> for modern tools</h1>
-
-                <p class="sub-text2">Provide support that’s as polished as your product with Plain, the <br> customer support tool for the companies defining the next decade.</p>
-
-                <a href="#"><button class="joinBeta">Join the open beta now</button></a>
-
-                <div class="info-block">
-                    <div class="a">
-                        <img src="./image/1.png" alt="new" class="new">
-                        <p class="setUp">Set up in less than 5 mins</p>
-                    </div>
-                    <div class="a">
-                        <img src="./image/2.png" alt="settings" class="settings">
-                        <p class="builtFor">Built for seamless integration</p>
-                    </div>
-                    <div class="a">
-                        <img src="./image/3.png" alt="calculator" class="calculator">
-                        <p class="transparentlyPrice">Transparently priced</p>
-                    </div>
-                </div>
-
-            </div>
+  <div class="wrap">
+    <header class="site-header">
+      <div class="container">
+        <a href="#"><img class="logo" src="./image/plainLogo2.png" alt="Plain." /></a>
+        <nav class="main-nav" id="main-nav">
+          <ul class="header-ul">
+            <li class="link"><a href="docs">Docs</a></li>
+            <li class="link"><a href="pricing">Pricing</a></li>
+            <li class="link"><a href="jobs">Jobs</a></li>
+            <li class="link"><a href="journal">Journal</a></li>
+            <li class="link"><a class="special" href="signin">Sign In</a></li>
+          </ul>
+        </nav>
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
+    </header>
 
-    </div>
+    <section class="section with-animated-bg first-section">
+      <div class="background-grid"></div>
+      <div class="content">
+        <div class="container">
+          <p class="sub-text">Announcing our $6m Seed round co-led by Index and Connect</p>
+          <h1 class="main-text">Customer support<br> for modern tools</h1>
+          <p class="sub-text2">
+            Provide support that's as polished as your product with Plain, the <br>
+            customer support tool for the companies defining the next decade.
+          </p>
+          <a href="#"><button class="joinBeta">Join the open beta now</button></a>
 
+          <div class="info-block">
+            <div class="a">
+              <img src="./image/1.png" alt="new" class="new">
+              <p class="setUp">Set up in less than 5 mins</p>
+            </div>
+            <div class="a">
+              <img src="./image/2.png" alt="settings" class="settings">
+              <p class="builtFor">Built for seamless integration</p>
+            </div>
+            <div class="a">
+              <img src="./image/3.png" alt="calculator" class="calculator">
+              <p class="transparentlyPrice">Transparently priced</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section with-animated-bg second-section">
+      <div class="background-grid"></div>
+      <div class="content2">
+        <div class="container">
+          <img src="./image/interactive.png" alt="second page image" class="second-page-image">
+          <p class="join_the_modern-text">Join the modern teams already using Plain.</p>
+          <div class="first-block_img">
+            <img src="./image/stedi.png" alt="stedi" class="icons">
+            <img src="./image/sst.png" alt="sst" class="icons">
+            <img src="./image/standarts.png" alt="standarts" class="icons-n">
+          </div>
+          <div class="second-block_img">
+            <p class="backed_by-text">Backed by</p>
+            <img src="./image/socialsGroup.png" alt="socialGroup" class="icons">
+            <img src="./image/connect.png" alt="connect" class="icons">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white-bg">
+      <div class="content"></div>
+    </section>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
-
-<script type="module" src="./script.js"></script>
-
 </html>
